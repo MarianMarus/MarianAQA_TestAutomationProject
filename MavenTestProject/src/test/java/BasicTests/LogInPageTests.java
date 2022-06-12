@@ -5,7 +5,7 @@ import io.qameta.allure.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-@Owner("QA MArian")
+@Owner("AQA MArian")
 @Epic("Epic Name")
 @Story("Story Name")
 public class LogInPageTests extends BasePageTests {

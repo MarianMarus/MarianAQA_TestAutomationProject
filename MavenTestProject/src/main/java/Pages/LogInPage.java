@@ -34,7 +34,7 @@ public class LogInPage extends BasePage{
     WebElement registerLink;
 
     public void openLoginPage(){
-        //LOGGER.info("Open Login Page");
+        LOGGER.info("Open Login Page");
         driver.get("http://sampleshop.inqa.pl/logowanie?back=my-account");
     }
 
