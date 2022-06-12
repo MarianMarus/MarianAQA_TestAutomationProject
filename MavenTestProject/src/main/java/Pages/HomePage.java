@@ -10,7 +10,7 @@ public class HomePage extends BasePage{
     }
 
     By firstProductPrice = By.cssSelector("article .price");
-    By getFirstProduct = By.cssSelector("article");
+    //By getFirstProduct = By.cssSelector("article");
 
     public void openHomePage(){
         driver.get("http://sampleshop.inqa.pl/");
