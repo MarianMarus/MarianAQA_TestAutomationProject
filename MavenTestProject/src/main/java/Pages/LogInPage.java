@@ -7,9 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 public class LogInPage extends BasePage{
-
     final static Logger LOGGER = LoggerFactory.getLogger(ProductPage.class);
     public LogInPage(WebDriver driver){
         super(driver);
