@@ -29,13 +29,6 @@ public class BasePageTests {
                 ("config.properties"));
     }
 
-    private static FirefoxOptions setFirefoxOptions(){
-        System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"/dev/null");
-        FirefoxOptions options = new FirefoxOptions();
-        options.addArguments("-private");
-        return options;
-    }
-
     @AfterClass(alwaysRun = true)
     public void tearDown(){
         LOGGER.info("Run method TearDown for class ");

@@ -41,7 +41,6 @@ public class ProductPageTests extends BasePageTests{
     public void checkColorSelection(){
         driver.get("http://sampleshop.inqa.pl/men/1-1-hummingbird-printed-t-shirt.html#/1-rozmiar-s/8-kolor-bialy");
         List<WebElement> colorInputElements = driver.findElements(By.cssSelector(".input-color"));
-
         System.out.println(colorInputElements.get(0).getAttribute("title"));
         Assert.assertTrue(colorInputElements.get(0).isSelected());
         Assert.assertFalse(colorInputElements.get(1).isSelected());
