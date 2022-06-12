@@ -1,8 +1,0 @@
-utils/PropertiesReader.class
-utils/ScreenshotUtil.class
-BasicTests/LogInPageTests.class
-BasicTests/ProductPageTests.class
-utils/DriverManager.class
-utils/FileUtils.class
-BasicTests/BasePageTests.class
-BasicTests/HomePageTests.class

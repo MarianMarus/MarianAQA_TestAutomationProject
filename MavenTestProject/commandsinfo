@@ -1,4 +1,0 @@
-    // cd /Users/marian/IdeaProjects/MavenTestProject
-    // mvn test
-    // bash: "ls -l or ls -a"
-    // bash: mvn clean install -U
